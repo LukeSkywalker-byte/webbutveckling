@@ -1,0 +1,33 @@
+<html>
+<title>Webform test</title>
+
+<body>
+    <h2>Vänligen lägg in all din personliga information här :)</h2>
+
+    <form action="/action_page.php" method="post">
+        <label for="fname">Förnamn:</label><br>
+        <input type="text" id="fname"><br><br>
+        <label for="ename">Efternamn:</label><br>
+        <input type="text" id="ename"><br><br>
+        <input type="radio" id="man" name="gender" value="man">
+        <label for="man">Man</label><br>
+        <input type="radio" id="kvinna" name="gender" value="kvinna">
+        <label for="kvinna">Kvinna</label><br>
+        <input type="radio" id="annat" name="gender" value="annat">
+        <label for="annat">Annat</label><br>
+        <p>Kör du någon av dessa fordon?</p>
+        <input type="checkbox" id="fordon1" name="fordon1" value="Cykel">
+        <label for="fordon1">Cykel</label><br>
+        <input type="checkbox" id="fordon2" name="fordon2" value="Moped">
+        <label for="fordon2">Moped</label><br>
+        <input type="checkbox" id="fordon3" name="fordon3" value="Traktor">
+        <label for="fordon3">Traktor</label><br>
+        <input type="checkbox" id="fordon4" name="fordon4" value="Bil">
+        <label for="fordon4">Bil</label><br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
